@@ -7,7 +7,7 @@ task:
   only_if: $CIRRUS_REPO_OWNER == 'chalkzonez'
   timeout_in: 120m
   container:
-    image: chalkzone/build:22.04
+    image: chalkzone/ubuntu:latest
     cpu: 8
     memory: 32G
 
